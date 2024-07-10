@@ -1,0 +1,74 @@
+{
+    "data": [
+        {
+          "q": 0,
+          "r": 0,
+          "name": "@rest",
+          "description": "This is where you sleep. There's a big old fantasy inn right there, smack dab in the middle of town. Go to bed!!!! Colors from: https://mui.com/material-ui/customization/color/",
+          "color": "#222222"
+        },
+        {
+          "q": 1,
+          "r": 0,
+          "name": "@hobbies",
+          "description": "Okay I dunno what exists in this part of town, but whatever it is, it can help you with the projects you really care about.",
+          "color": "#222222"
+        },
+        {
+          "q": 1,
+          "r": 1,
+          "name": "@read",
+          "description": "The coolest magical scifi library EVER is in this part of town.",
+          "color": "#4a148c"
+        },
+        {
+          "q": 1,
+          "r": -1,
+          "name": "@work",
+          "description": "Some kind of huge carnival festival is here, but for people to gamify their tasks.",
+          "color": "#b71c1c"
+        },
+        {
+          "q": 0,
+          "r": -1,
+          "name": "@clean",
+          "description": "A giant void is here.",
+          "color": "#1a237e"
+        },
+        {
+          "q": -1,
+          "r": 0,
+          "name": "@music",
+          "description": "Something for music.",
+          "color": "#b71c1c"
+        },
+        {
+          "q": 0,
+          "r": 1,
+          "name": "@eat/cook",
+          "description": "FOOD FOREST",
+          "color": "#1b5e20"
+        },
+        {
+          "q": 2,
+          "r": 0,
+          "name": "@tutor",
+          "description": "FOOD FOREST",
+          "color": "#222222"
+        },
+        {
+          "q": 2,
+          "r": 1,
+          "name": "@learn/study",
+          "description": "FOOD FOREST",
+          "color": "#4a148c"
+        },
+        {
+          "q": 1,
+          "r": 2,
+          "name": "@coding",
+          "description": "",
+          "color": "#4a148c"
+        }
+      ]
+}

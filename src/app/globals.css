@@ -2,32 +2,50 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
-}
-
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  color: white;
+  background: black;
 }
 
 @layer utilities {
   .text-balance {
     text-wrap: balance;
   }
+}
+
+
+/**************************/
+
+body {
+  margin: 0;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  place-items: center;
+  justify-content: center;
+  min-width: 320px;
+  max-width: 100%;
+  
+  min-height: 100vh;
+}
+
+body > div {
+  width: 100%;
+}
+
+body > div > * {
+  margin: 1rem;
+}
+
+h1 {
+  font-size: 2rem;
+  line-height: 1.1;
+}
+
+.card {
+  border: 3px solid white;
+  border-radius: 1rem;
+  padding: 0.6rem;
+  margin-right: 1rem;
+  margin-bottom: 2rem;
 }
